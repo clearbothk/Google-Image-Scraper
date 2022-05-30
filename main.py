@@ -16,7 +16,7 @@ if __name__ == "__main__":
     image_path = os.path.normpath(os.path.join(os.getcwd(), 'photos'))
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys= ['plastic bottle floating in water']
+    search_keys= ['plastic bottle floating in water', "duck swimming"]
 
     #Parameters
     number_of_images = 200
