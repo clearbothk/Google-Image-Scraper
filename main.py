@@ -16,11 +16,11 @@ if __name__ == "__main__":
     image_path = os.path.normpath(os.path.join(os.getcwd(), 'photos'))
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
-    search_keys= ['apple','t-shirt']
+    search_keys= ['plastic bottle floating in water']
 
     #Parameters
-    number_of_images = 2
-    headless = False
+    number_of_images = 200
+    headless = True
     min_resolution=(0,0)
     max_resolution=(9999,9999)
 
