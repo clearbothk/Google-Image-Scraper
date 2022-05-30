@@ -12,7 +12,7 @@ from patch import webdriver_executable
 
 if __name__ == "__main__":
     #Define file path
-    webdriver_path = os.path.normpath(os.path.join(os.getcwd(), 'webdriver', webdriver_executable()))
+    webdriver_path = 'chromedriver'
     image_path = os.path.normpath(os.path.join(os.getcwd(), 'photos'))
 
     #Add new search key into array ["cat","t-shirt","apple","orange","pear","fish"]
